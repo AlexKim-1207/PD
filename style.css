@@ -89,3 +89,57 @@ body {
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
 }
+
+/* Contact Section */
+.contact-section {
+    margin-top: 30px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: var(--text-color);
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid var(--text-color);
+    background-color: var(--container-bg);
+    color: var(--text-color);
+    box-sizing: border-box;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+#submit-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: #1976D2;
+}
