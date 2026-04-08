@@ -1,28 +1,20 @@
-
-# Lotto Number Generator
+# Lotto Number Generator Project
 
 ## Overview
-
-This application generates and displays recommended lotto numbers.
+A simple, responsive web application that generates random lotto numbers (1-45) and displays them in a clean, visual format.
 
 ## Features
+- **Random Number Generation**: Generates 6 unique numbers between 1 and 45.
+- **Sorted Display**: Numbers are automatically sorted in ascending order.
+- **Dark/Light Mode**: User-selectable theme that persists across sessions using `localStorage`.
+- **Responsive Design**: Adapts to different screen sizes.
 
-*   Generates 6 unique random numbers between 1 and 45.
-*   Displays the generated numbers in a visually appealing way.
-*   Modern and responsive design.
+## Implementation Details
+- **HTML5/CSS3**: Uses CSS variables for theming and Flexbox for layout.
+- **Vanilla JavaScript**: Pure JS for number generation, sorting, and theme management.
+- **Persistence**: Theme preference is saved in the browser's local storage.
 
-## Current Task
-
-### Plan
-
-1.  **Modify `index.html`:**
-    *   Change the title to "Lotto Number Generator".
-    *   Add a main container for the app.
-    *   Add a button to generate numbers.
-    *   Add a container to display the generated numbers.
-2.  **Modify `style.css`:**
-    *   Add styles for the main container, button, and number display.
-    *   Use a modern and visually appealing design.
-3.  **Modify `main.js`:**
-    *   Add a function to generate 6 unique random numbers between 1 and 45.
-    *   Add an event listener to the button to call the generation function and update the display.
+## Recent Changes
+- Implemented Dark/Light mode with persistence.
+- Added sorting logic for generated numbers.
+- Modernized UI with CSS variables and transition effects.
